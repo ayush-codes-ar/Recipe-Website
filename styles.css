@@ -98,7 +98,7 @@
 
 #logo {
   align-self: center;
-  color: aliceblue;
+  color: rgb(2, 11, 18);
   font-size: 2.5rem;
 }
 
@@ -112,4 +112,27 @@
 a {
   text-decoration: none;
   color: aliceblue;
+}
+
+.footerBox {
+  width: 100vw;
+  height: 400px;
+  background: #152331;
+  background: -webkit-linear-gradient(
+    to right,
+    #000000,
+    #152331
+  );
+  background: linear-gradient(
+    to right,
+    #000000,
+    #152331
+  );
+  text-align: center;
+}
+
+#copyright{
+    color: aliceblue;
+    font-size: 2rem;
+
 }
